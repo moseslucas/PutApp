@@ -8,11 +8,9 @@ import {
   Alert,
   Image
 } from 'react-native'
-
+import Sound from 'react-native-sound'
 
 export default class App extends Component<{}> {
-  componentDidMount () {
-  }
   render() {
     return (
       <View style={styles.container}>
@@ -24,14 +22,14 @@ export default class App extends Component<{}> {
   }
 
   _handlePress () {
-    Alert.alert(
-      'PUTANGINA KA',
-      '',
-      [
-        {text: 'Putangina mo din', onPress: () => Alert.alert('PUTANGINA MO')},
-        {text: 'PUTA AKO', onPress: () => Alert.alert('OO, PUTA KA TALAGA')}
-      ], { cancelable: false }
-    )
+    const whoosh = new Sound('putapp.mp3', Sound.MAIN_BUNDLE, (error) => {
+      if (error) {
+        console.log('failed to load the sound', error)
+      } else {
+        whoosh.setNumberOfLoops(-1)
+        whoosh.play()
+      }
+    })
   }
 }
 
