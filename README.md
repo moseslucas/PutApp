@@ -1,9 +1,11 @@
-# PutApp
+# Walang Kwenta PH
 
-Making your everyday life more productive by **Put**ing what's more essential with **PutApp**.
+The Most Useless App of the Philippines.
+Ang Pinaka Walang Kwentang App dito sa Pilipinas
+Walang Kwenta
 
-Version: 1.0.0
+Version: 1.0.1
 
-## Download APK: [Here](https://drive.google.com/open?id=1oVEdYyblCCCmL3j_qYgKItc1QRfbXM3U) 
+## Download APK: [Here](https://drive.google.com/open?id=1QcG8kRJCdzO7CzDjsPyW6o21U1Qn75KR) 
 
 and install. _(enable Uknown Sources when prompted upon installation)_
